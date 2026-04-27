@@ -1,0 +1,39 @@
+{
+  "scopeName": "source.stimage",
+  "patterns": [
+    {
+      "match": "(<)(\"([^\"]+)\"(:)(\"[^\"]+\"))([|])(https?://[^>]+)(>)",
+      "captures": {
+        "1": { "name": "punctuation.definition.tag.begin.stimage" },
+        "3": { "name": "entity.name.tag.character.stimage" },
+        "4": { "name": "punctuation.separator.stimage" },
+        "5": { "name": "constant.numeric.emotion.stimage" },
+        "6": { "name": "punctuation.separator.stimage" },
+        "7": { "name": "markup.underline.link.stimage" },
+        "8": { "name": "punctuation.definition.tag.end.stimage" }
+      }
+    },
+    {
+      "match": "(<)([^|]+)([|])(https?://[^>]+)(>)",
+      "captures": {
+        "1": { "name": "punctuation.definition.tag.begin.stimage" },
+        "2": { "name": "entity.name.tag.bg.stimage" },
+        "3": { "name": "punctuation.separator.stimage" },
+        "4": { "name": "markup.underline.link.stimage" },
+        "5": { "name": "punctuation.definition.tag.end.stimage" }
+      }
+    },
+    {
+      "match": "^(—+)([^—]+)(—+)$",
+      "captures": {
+        "1": { "name": "comment.line.divider.stimage" },
+        "2": { "name": "comment.line.divider.text.stimage" },
+        "3": { "name": "comment.line.divider.stimage" }
+      }
+    },
+    {
+      "match": "^—+$",
+      "name": "comment.line.stimage"
+    }
+  ]
+}

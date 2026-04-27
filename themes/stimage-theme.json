@@ -1,0 +1,69 @@
+{
+  "name": "STImage Theme",
+  "colors": {
+    "editor.tokenColorCustomizations": {
+      "entity.name.tag.character.stimage": "#00BFFF",
+      "entity.name.tag.bg.stimage": "#9370DB",
+      "constant.numeric.emotion.stimage": "#FF69B4"
+    }
+  },
+  "tokenColors": [
+    {
+      "scope": "entity.name.tag.character.stimage",
+      "settings": {
+        "foreground": "#00BFFF",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": "entity.name.tag.bg.stimage",
+      "settings": {
+        "foreground": "#9370DB",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": "constant.numeric.emotion.stimage",
+      "settings": {
+        "foreground": "#FF69B4",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": "punctuation.definition.tag.begin.stimage",
+      "settings": {
+        "foreground": "#808080"
+      }
+    },
+    {
+      "scope": "punctuation.definition.tag.end.stimage",
+      "settings": {
+        "foreground": "#808080"
+      }
+    },
+    {
+      "scope": "punctuation.separator.stimage",
+      "settings": {
+        "foreground": "#808080"
+      }
+    },
+    {
+      "scope": "comment.line.stimage",
+      "settings": {
+        "foreground": "#00FF00"
+      }
+    },
+    {
+      "scope": "comment.line.divider.stimage",
+      "settings": {
+        "foreground": "#00FF00"
+      }
+    },
+    {
+      "scope": "comment.line.divider.text.stimage",
+      "settings": {
+        "foreground": "#00FF00"
+      }
+    }
+  ]
+}

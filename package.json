@@ -1,0 +1,37 @@
+{
+  "name": "ba-stimage-editingsupport",
+  "displayName": "碧蓝档案：新生黎明 格式编辑支持",
+  "description": "为SillyTavern剧本《碧蓝档案：新生黎明》STImage格式文件提供语法高亮",
+  "version": "1.4.0",
+  "icon": "STImage Edit logo.png",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "stimage",
+      "aliases": ["STImage", "stim"],
+      "extensions": [".stim"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "stimage",
+      "scopeName": "source.stimage",
+      "path": "./syntaxes/stimage.tmLanguage.json"
+    }],
+    "themes": [{
+      "label": "STImage Theme",
+      "uiTheme": "vs-dark",
+      "path": "./themes/stimage-theme.json"
+    }]
+  },
+  "publisher": "SunsetNightMoon",
+  "author": "暮落夜月",
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
