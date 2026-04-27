@@ -114,4 +114,4 @@
 
 ## 许可证
 
-GPL V3
+[GPL v3](LICENSE)
