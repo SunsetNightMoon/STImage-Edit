@@ -1,9 +1,13 @@
 {
-  "name": "ba-stimage-editingsupport",
-  "displayName": "碧蓝档案：新生黎明 格式编辑支持",
+  "name": "STImage-Edit",
+  "displayName": "碧蓝档案：新生黎明 格式编辑支持扩展",
   "description": "为SillyTavern剧本《碧蓝档案：新生黎明》STImage格式文件提供语法高亮",
-  "version": "1.4.0",
-  "icon": "STImage Edit logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SunsetNightMoon/STImage-Edit"
+  },
+  "version": "1.4.1",
+  "icon": "STImage-Edit-logo.png",
   "engines": {
     "vscode": "^1.60.0"
   },
@@ -28,10 +32,6 @@
       "path": "./themes/stimage-theme.json"
     }]
   },
-  "publisher": "SunsetNightMoon",
-  "author": "暮落夜月",
-  "repository": {
-    "type": "git",
-    "url": ""
-  }
+  "publisher": "sunsetnightmoon",
+  "author": "暮落夜月"
 }
