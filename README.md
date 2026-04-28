@@ -1,5 +1,13 @@
 # 碧蓝档案：新生黎明 格式编辑支持扩展
 
+## 语言切换 🌐
+| 语言 | 文件 |
+|------|------|
+| 中文 | [README.md](README.md) |
+| English | [README-en.md](README-Language/README-en.md) |
+| 日本語 | [README-ja.md](README-Language/README-ja.md) |
+| 한국어 | [README-ko.md](README-Language/README-ko.md) |
+
 专门为SillyTavern的剧本《碧蓝档案：新生黎明》开发的STImage格式文件提供语法高亮的VSCode扩展。
 兼容1.2版《碧蓝档案：新生黎明》新文本格式提供便捷编辑。
 兼容Visual Studio Code、Trae CN等支持vsix安装的编辑器。
